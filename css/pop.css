@@ -1,0 +1,69 @@
+body{
+    background-color: red;
+}
+.fantasy_popup_con{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	background-color:red;
+}
+
+.fantasy_popInner{
+	width: 500px;
+	height: 500px;
+	position: fixed;
+	background-color: var(--cardFill);
+	border-radius: 15px;
+}
+.fantasy_closeHeader{
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+
+}
+.fantasy_closeHeader span {
+	position: absolute;
+	top: 0;
+	bottom: 20;
+	right: 0;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+	padding: 20px;
+}
+.fantasy_closeHeader span:hover {
+	color: #666;
+	padding: 20px;
+	cursor: pointer;
+}
+.fantasy_popBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+}
+.fantasy_circleBody{
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: var(--circle);
+}
+span img{
+	width: 100%;
+	transform: rotate(90deg);
+}
+.fantasy_succ{
+	width: 100%;
+	padding: 20px;
+	color: var(--succText);
+}
+.fantasy_succ h3{
+	text-align: center;
+	color: var(--succText);
+}
+
+

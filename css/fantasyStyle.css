@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+    --colorRed: #FC3232;
+    --colorBodyLight: #0F0F0F;
+    --colorBodyDark: #000000;
+    --textColor: #DADADA;
+    --dullTextColor: #8F8B8B;
+    --borderCorlor: #111111;
+    --cardFill: #161616;
+    --h3Color: #979797;
+    --textWhite: #ffffff;
+    --borderColor: #2E2E2E;
+    --inputFill: #1C1B1B;
+    --tieBreakerGold:#B96C07 ;
+    --btnborderBottom: #A10306;
+    --btn: #E83639;
+    --loaderBoardHeader: #1F1E1E;
+    --loaderBoardBG: #1C1B1B;
+    --circle: #1C1B1B;
+    --succText: #9ED4A5;
+}
+*{
+	text-decoration: none;
+	outline: none;
+	stroke: transparent;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    outline: none;
+    stroke: transparent;
+    border: none;
+}
+h1{
+color: var(--btn);
+}
+h2{
+
+
+}
+h3{
+color: var(--h3Color);
+font-size: 17px;
+}
+h4{
+color: var(--textColor);
+font-size: 18px;
+line-height: 25px;
+font-weight: 400;
+}
+a{
+    color: var(--h3Color);
+}
+a:hover{
+    color: var(--textWhite);
+}
+
+.fantasy_inputAns{
+    width: 350px;
+    height: 60px;
+    color: var(--textWhite);
+    background-color: var(--inputFill);
+    border: 1px solid var(--borderCorlor);
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+.fantasy_inputAns:hover{
+    border: 1px solid var(--inputFill);
+    padding: 10px;
+    font-style: italic;
+
+}
+
+body{   
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+.fantasy_body{
+background-image: linear-gradient(var(--colorBodyDark),
+    var(--colorBodyLight) );
+}
+.fantasy_sectionTop{
+    background: url('../img/bg.jpg') no-repeat fixed center;
+    width: 100%;
+    height: 100vh;
+    float: left;
+
+    /*display: flex;
+    align-ite: center;
+    justify-content: center;*/
+
+}
+.fantasy_card{
+    width: 50%;
+    float: left;
+    height: 700px;
+    padding: 40px;
+}
+.fantasy_One{
+    width: 50%;
+    padding-top: 7em;
+    padding-left: 12em;
+}
+
+.fantasy_two{
+    width: 50%;
+    padding-right: 12em;
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fantasy_twoCard{
+    margin-bottom: 90px;
+    width: 730px;
+    height: 500px;
+}
+.fantasy_twoCard img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.fantasy_prnwin{
+    font-size: 50px;
+    color: var(--btn);
+    font-weight: bolder;
+}
+.fantasy_hundred{
+    
+    font-size: 10em;
+    color: var(--btn);
+    font-weight: 900;
+    padding: 0;
+}
+.fantasy_participt{
+   
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    color: var(--textWhite);
+}
+
+.fantasy_sectionMiddBTN{
+   float: left;
+   width: 100%;
+   padding: 10px;
+   padding-left: 0;
+   display: flex;
+   margin-top: 30px;
+  
+   justify-content: left;
+}
+.fantasy_btnDanger{
+   padding: 10px;
+   height: 50px;
+   font-size: 18px;
+   width: 190px;
+   color: var(--textWhite);
+   background-color: var(--btn);
+   border-radius: 50px;
+   cursor: pointer;
+   border-bottom: 3px solid var(--btnborderBottom);
+}
+.fantasy_btnDanger:hover{
+   background-color: var(--btnborderBottom);
+   border-bottom: 3px solid var(--btnborderBottom);
+
+}
+
+
+/*Section 2*/
+
+.fantasy_sectionMiddle{
+    width: 100%;
+    padding: 5px; 
+    float: left;  
+}
+.fantasy_sectionMiddleInner{
+    float: left;
+    
+    width: 100%;
+    padding: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fantasy_sectionMiddleCard{
+    border-top-right-radius: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 35px;
+    border-radius: 10px, 35px, 10px, 35px;
+    border: 1px solid var(--btn);
+    background-color: var(--cardFill);
+    display: grid;
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+}
+.fantasy_secOneInner{
+    width: 120px;
+    height: 120px;
+    border-radius:130px;
+     background-image:  linear-gradient(45deg, rgba(232, 54, 57, .1), 
+        rgba(28, 27, 27, 0.8)), url('../img/cardBG.png'); 
+     background-repeat: no-repeat;
+     background-size: 100%;
+     object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.fantasy_secOneContainer{
+width: 100%;
+background-color:;
+padding: 10px;
+text-align: center;
+}
+
+/*Section 3*/
+
+.fantasy_sectionBottom{
+    width: 100%;
+    padding: 5em;   
+    float: left;
+    padding-top: 5em;
+    background-color: ;
+}
+.fantasy_dmcation{
+    width: 100%;
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fantasy_dmcation ul{
+    background-color: ; 
+    padding: 10px;
+    margin: 4px;
+    width: 550px;
+    text-align: center;
+
+}
+.fantasy_dmcation ul li{
+    padding: 8px;
+    margin: 5px;
+    display: inline;
+    margin-top: 10px;
+    text-align: center;
+    background-color: ;
+    color: var(--h3Color);
+
+}
+.fantasy_plogo{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;   
+    background-color: ;
+
+}
+.fantasy_plogo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.fantasy_mviewContainer{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    padding: 20px;
+    width: 100%;
+}
+.fantasy_mobile-button{ 
+    font-size: 14px;
+    text-align: center;
+    display: block !important;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    max-width: 100%;
+    z-index: 999;
+    padding: 2em 0;
+    transition: all 0.5s;
+    transform: translateY(0%);
+
+}
+.fantasy_enter-view{
+     text-align: center;
+    text-decoration: none;
+
+   padding: 10px 25px;
+   height: 50px;
+   width: 210px;
+
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin: 0 auto;    
+    color: var(--textWhite);
+    background-color: var(--btn);
+   border-radius: 50px;
+   cursor: pointer;
+   border-bottom: 3px solid var(--btnborderBottom);
+}
+    .fantasy_enter-view a span{
+    margin: 0 auto;    
+    color: var(--textWhite);
+
+}
+
+
+}
+.fantasy_enter-view:hover{
+   background-color: var(--btnborderBottom);
+   border-bottom: 3px solid var(--btnborderBottom);
+
+}
+
+/* Landscape phones and down */
+@media only screen and (max-width:1280px)
+{
+    .fantasy_two{
+    display: none;
+}
+.fantasy_One{
+    width: 100%;
+    padding: 5em;
+    
+}
+
+
+}
+
+
+/* Landscape phones and down @media only screen and (min-width: 400px) and (max-width:1200px)*/
+
+@media only screen and (max-width: 870px){
+.fantasy_sectionTop{
+
+
+     background-image:  linear-gradient(45deg, rgba(12, 12, 12, 7), 
+        rgba(22, 22, 22, 0.86)), url('../img/betensuredLogoCrop.png');
+     background-repeat: no-repeat;
+     background-size: 100%;
+     object-fit: cover;
+    width: 100%;
+    /*height: 100vh;
+    display: flex;
+    align-ite: center;
+    justify-content: center;*/
+
+}
+.fantasy_card{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    padding: 40px;
+   
+}
+.fantasy_One{
+    width: 100%;
+    padding-top: 5em;
+    padding-left: 2em;
+    
+}
+
+.fantasy_two{
+    width: 100%;
+    display: none;
+    
+}
+.fantasy_twoCard{
+    
+    margin-bottom: 90px;
+    width: 100%;
+    height: 400px;
+}
+
+.fantasy_prnwin{
+    font-size: 25px;
+    text-align: center;
+    color: var(--btn);
+    font-weight: bolder;
+}
+.fantasy_hundred{
+    font-size: 8em;
+    text-align: center;
+    letter-spacing: -10px;
+    padding: 0;
+}
+.fantasy_participt{
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    padding: 10px 40px 0;
+    background-color: ;
+    font-size: 19px;
+}
+
+.fantasy_sectionMiddBTN{
+   display: none;
+   float: left;
+   width: 100%;
+   height: 45vh;
+   padding: 10px;
+   margin-top: 30px;
+}
+.fantasy_btnDanger{
+   padding: 10px; 
+   position: absolute;
+   bottom: 15px;
+}
+
+
+/*Section 2*/
+
+.fantasy_sectionMiddle{
+    width: 100%;
+    padding: 5px;   
+    margin: 0 auto;
+}
+.fantasy_sectionMiddleInner{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    padding: 5px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.fantasy_sectionMiddleCard{
+    border-top-right-radius: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 35px;
+    border-radius: 10px, 35px, 10px, 35px;
+    border: 1px solid var(--btn);
+    background-color: var(--cardFill);
+    display: grid;
+    padding: 40px;
+    margin: 20px;
+    width: 70%;
+    margin-left: 15%;
+    height: 350px;
+}
+
+.fantasy_mobile-button{ 
+    font-size: 14px;
+    text-align: center;
+    display: block !important;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    background-color: red;
+    max-width: 100%;
+    z-index: 999;
+    padding: 2em 0;
+    transition: all 0.5s;
+    transform: translateY(0%);
+
+}
+.fantasy_enter-view{
+     text-align: center;
+    text-decoration: none;
+    padding: 0.60em 1.2em;
+    border-radius: 4px;
+    font-size: 1.3em;
+    line-height: 1.2;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;    
+    color: var(--textWhite);
+    background-color: var(--btn);
+   border-radius: 50px;
+   cursor: pointer;
+   border-bottom: 3px solid var(--btnborderBottom);
+}
+
+
+/*Section 3*/
+
+.fantasy_sectionBottom{
+    width: 100%;
+    padding: 30px 0 100px;
+    padding-top: 5em;
+}
+.fantasy_dmcation{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.fantasy_dmcation ul{
+    padding: 5px;
+    margin: 4px;
+    width: 95%;
+    text-align: center;
+
+}
+.fantasy_dmcation ul li{
+    padding: 0px;
+    font-size: 14px;
+    margin: 5px;
+
+}
+
+
+
+
+
+
+
+}
+

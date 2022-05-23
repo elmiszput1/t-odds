@@ -1,0 +1,129 @@
+:root{
+    --colorRed: #FC3232;
+}
+button{
+   border:none !important;
+   stroke:none !important;
+   outline:none !important; 
+   background-color: #f5f5f5 !important;
+   color: #161616 !important;
+}
+button:hover{
+    background-color: #ebebeb !important;
+    cursor:pointer !important; 
+ }
+.col, .col-2,.col-5,.col-6,.col-7{
+    background-color: transparent !important;
+    color: #161616 !important;
+    border-radius: 2px !important;
+}
+
+.body{
+    background-color:#f1f1f1 !important;
+    padding: 10px !important;
+    color: #161616 !important;
+}
+.container{
+    padding:20px;
+    background-color: #f1f1f1!important;;
+    
+}
+.col{
+    background-color: #f7f7f7;
+    color: #161616 !important;
+}
+.fantasyBanner{
+    width: 900px;
+    height: 216px;
+    padding:2px;
+}
+.fantasyBanner img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+#ttheaderp20{
+    font-size: 16px;
+    font-weight: bold !important;
+    padding: 20px;
+    border-bottom: 1px solid #e4e4e4;
+}
+#ttheaderp10{
+    padding: 0.5rem;
+}
+.name4Contr{
+   
+}
+.logoSvg4Contr{
+    /* background-color: rgb(188, 11, 176); */
+    /* width:25px;
+    height:25px;
+    margin: 0;
+    margin-right: 5px; */
+}
+.logoSvg4Contr img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .betOddsSection{
+     padding: .5rem;
+     background-color:#e8e8e8;
+     /* width: 100% !important; */
+     border-radius:3px;
+     font-size: 11px;
+     border:1px solid #eae9e9!important;
+     font-weight: 500 !important;
+     text-transform: capitalize !important;
+ }
+ .totalOdds{
+    padding: 6px 10px;
+    cursor: none !important;
+    background-color:#f3f3f3;
+    height: 40px;
+    font-size: 12px !important;
+    border-radius:3px;
+    font-weight: 500 !important;
+    border: 1px solid #d1d1d1 !important;
+}
+.blink_me {
+    animation: blinker 2s linear infinite;
+    color: #69a276;
+    font-weight:500;
+    
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+
+
+
+/* Landscape phones and down */
+@media only screen and (max-width:1280px)
+{
+	.fantasyBanner{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .fantasyBanner img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+}
+
+
+/* Landscape phones and down */
+@media only screen and (min-width: 400px) and (max-width:1200px)
+{
+}
